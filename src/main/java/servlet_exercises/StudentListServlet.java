@@ -29,7 +29,7 @@ public class StudentListServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		PrintWriter out = response.getWriter();
 		
-		response.setContentType("application/json");
+		response.setContentType("text/json");
 		response.setCharacterEncoding("UTF-8");
 		
 		StudentDAO studentDAO = new StudentDAO();
@@ -38,7 +38,7 @@ public class StudentListServlet extends HttpServlet {
 		Gson gson = new Gson();
 		String json = gson.toJson(studentList); 
 		
-		out.print(json);
+		out.println(json);
 		
 		
 	}
