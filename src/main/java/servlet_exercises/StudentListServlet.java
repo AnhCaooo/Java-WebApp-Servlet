@@ -40,7 +40,6 @@ public class StudentListServlet extends HttpServlet {
 		
 		out.println(json);
 		
-		
 	}
 
 }
