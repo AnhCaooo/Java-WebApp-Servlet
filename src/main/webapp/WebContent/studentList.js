@@ -12,7 +12,7 @@ function main() {
 			}
  		})
  		.then(studentList => printStudents(studentList)) // 5.
- 		.catch(errorText => console.error("Fetch failed: " + errorText)); // 6.
+ 		.catch(errorText => alert("postDataToServer failed: " + errorText)); // 6.
 }
 	
 function printStudents(studentList) { // 7.

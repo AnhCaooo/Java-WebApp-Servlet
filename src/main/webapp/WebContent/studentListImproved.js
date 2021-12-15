@@ -1,6 +1,6 @@
 
 function main() {
-	 // Send a request to the server
+	// Call the getDataFromServer function
 	getDataFromServer("http://localhost:8080/WebAppExercises/students", printStudents);
 
 }
@@ -11,7 +11,7 @@ function printStudents(studentList) { // 7.
     var outputText = "";
  	
 	for (var student of studentList){
- 		//console.log(student.lastname);
+
 		outputText += '<tr><td>' + student.id + '</td><td>' + student.firstname + '</td><td>' + student.lastname + '</td><td>' + student.streetaddress + '</td><td>' + student.postcode + '</td><td>' + student.postoffice + '</td></tr>'; 
  	}
 	

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+	<title>Student Add</title>
+	<link rel="stylesheet" type="text/css" href="../css/webAppExercises.css">
+	<script src="studentAdd.js"></script>
+</head>
+
+<body>
+<h1>Add Student</h1>
+
+
+	<form action="http://localhost:8080/WebAppExercises/addStudent" method="POST">
+		<label>Id:</label>
+  		<input type="text" id="id" name="id">
+  			
+  		<br>
+  		<label>First name:</label><br>
+  		<input type="text" id="firstname" name="firstname" >	
+  		
+  		<br>
+  		<label>Last name:</label><br>
+  		<input type="text" id="lastname" name="lastname">	
+  		
+  		<br>
+  		<label>Street Address:</label><br>
+  		<input type="text" id="streetaddress" name="streetaddress" >	
+  		
+  		<br>
+  		<label>Postcode:</label><br>
+  		<input type="text" id="postcode" name="postcode" >	
+  		
+  		<br>
+  		<label>Post Office:</label><br>
+  		<input type="text" id="postoffice" name="postoffice" >	
+  		
+  		<input type = "submit" value = "Add new student">
+	</form>
+			
+	
+</body>
+</html>

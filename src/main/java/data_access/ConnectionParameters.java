@@ -7,7 +7,7 @@ public class ConnectionParameters {
 
 	// SQLite driver name, database name etc.
 	public static final String jdbcDriver = "org.sqlite.JDBC";
-	public static final String projectName = "StudentManagement"; 
+	public static final String projectName = "WebAppExercises"; 
 	public static final String databaseFolder = "databases";
 	public static final String databaseName = "StudentDatabase.sqlite"; 
 	public static final String databaseLocation = getDatabaseLocation();
